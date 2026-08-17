@@ -2,11 +2,11 @@
 # -*- coding: utf-8 -*-
 
 """
-╔══════════════════════════════════════════════════════════════════╗
-║     🔐 CyberSecurity Toolkit Pro v2.0                          
+╔════════════════════════════════════╗
+║  🔐 CyberSecurity Toolkit Pro v2.0                          
 ║     By STYVEN Emmanuel                                         
-║     Full Security Suite - Termux Compatible                   
-╚══════════════════════════════════════════════════════════════════╝
+║ Full Security Suite - Termux Compatible                   
+╚════════════════════════════════════╝
 """
 
 import subprocess
@@ -48,13 +48,13 @@ class Colors:
 def banner():
     os.system('clear')
     print(f"""
-{Colors.RED}╔══════════════════════════════════════════════════════════════════╗
+{Colors.RED}╔══════════════════════════════════════════════╗
 {Colors.GREEN}║                                                                  
-{Colors.CYAN}║     🔐 CYBERSECURITY TOOLKIT PRO v2.0                           
+{Colors.CYAN}║    🔐 CYBERSECURITY TOOLKIT PRO v2.0                           
 {Colors.YELLOW}║     By STYVEN Emmanuel                                         
-{Colors.MAGENTA}║     Full Security Suite - 30+ Tools Integrated               
+{Colors.MAGENTA}║  Full Security Suite - 30+ Tools Integrated               
 {Colors.GREEN}║                                                                  
-{Colors.RED}╚══════════════════════════════════════════════════════════════════╝
+{Colors.RED}╚══════════════════════════════════════════════╝
 {Colors.END}
 {Colors.WHITE}📱 WhatsApp: https://whatsapp.com/channel/0029VbCUG0XHltYAlmcp9A3T
 
@@ -871,9 +871,10 @@ def main_menu():
     while True:
         banner()
         print(f"""
-{Colors.CYAN}╔══════════════════════════════════════════════════════════════════╗
-║                        MAIN MENU                                        
-╠══════════════════════════════════════════════════════════════════╣
+{Colors.CYAN}
+╔═════════════════════════════════════════════╗
+║               MAIN MENU                                        
+╠═════════════════════════════════════════════╣
 ║                                                                        
 ║  {Colors.GREEN}1.{Colors.END} 🎯 Full Domain Scan (All Tools)                      
 ║  {Colors.GREEN}2.{Colors.END} 🌐 DNS Reconnaissance                                
@@ -889,7 +890,7 @@ def main_menu():
 ║  {Colors.GREEN}12.{Colors.END}📁 Export Results (JSON/CSV)                      
 ║  {Colors.GREEN}13.{Colors.END}❌ Exit                                              
 ║                                                                        
-╚══════════════════════════════════════════════════════════════════╝
+╚═════════════════════════════════════════════╝
 {Colors.END}
         """)
         
