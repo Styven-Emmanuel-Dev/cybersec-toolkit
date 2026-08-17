@@ -1,0 +1,11 @@
+# Créer le fichier
+cat > requirements.txt << EOF
+dnspython>=2.3.0
+python-whois>=0.8.0
+requests>=2.31.0
+colorama>=0.4.6
+termcolor>=2.3.0
+EOF
+
+# Installation avec requirements.txt
+pip install -r requirements.txt
